@@ -7,3 +7,7 @@
 *:not(i) {
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  background-color: #B4D0FE;
+}
