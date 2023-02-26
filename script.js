@@ -5,5 +5,11 @@ const btn = document.getElementById("search-btn");
 
 btn.addEventListener("click", () => {
   let inpWord = document.getElementById("inp-word").value;
-  console.log(inpWord);
+  fetch(`${url}${inpWord}`)
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      result.innerHTML = `
+      `;
+    });
 })
