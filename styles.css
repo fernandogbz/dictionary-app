@@ -52,3 +52,8 @@ body {
 .result {
   position: relative;
 }
+
+.result h3 {
+  font-size: 30px;
+  color: #6295e6;
+}
