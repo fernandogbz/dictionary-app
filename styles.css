@@ -57,3 +57,9 @@ body {
   font-size: 30px;
   color: #6295e6;
 }
+
+.result .word {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
