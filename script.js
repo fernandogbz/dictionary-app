@@ -30,6 +30,6 @@ btn.addEventListener("click", () => {
     });
 });
 
-function playSound() {
+const playSound = () => {
   sound.play();
 }
