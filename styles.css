@@ -63,3 +63,11 @@ body {
   justify-content: space-between;
   margin-top: 80px;
 }
+
+.result button {
+  background-color: transparent;
+  color: #6295e6;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
